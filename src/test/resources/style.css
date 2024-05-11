@@ -1,0 +1,58 @@
+body {
+    background-color: green;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Center content */
+}
+
+.navigation {
+    width: 200px; /* Width of navigation panel */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    position: fixed; /* Fix navigation to the left */
+    top: 0; /* Start at top of the page */
+    bottom: 0; /* Extend to bottom of the page */
+}
+
+.navigation-item {
+    display: block; /* Stack buttons vertically */
+    color: black;
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing between buttons */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navigation-item:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+}
+
+.container {
+    margin-left: 200px; /* Make space for navigation */
+    padding: 20px; /* Add padding inside container */
+}
+
+h1 {
+    margin-top: 30px; /* Reduced margin-top */
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
